@@ -1,0 +1,15 @@
+requests==2.32.3
+PyPDF2==3.0.1
+spacy==3.7.5
+langchain==0.3.10
+langchain-openai==0.2.11
+python-dotenv==1.0.1
+scikit-learn==1.6.0
+sentence-transformers==3.3.1
+Flask==3.1.0
+pydantic
+crewai
+arxiv
+langchain
+langgraph
+langchain_community
