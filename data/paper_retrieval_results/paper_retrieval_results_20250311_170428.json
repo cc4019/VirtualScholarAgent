@@ -1,0 +1,1452 @@
+{
+  "retrieved_papers": [
+    {
+      "title": "KidneyTalk-open: No-code Deployment of a Private Large Language Model with Medical Documentation-Enhanced Knowledge Database for Kidney Disease",
+      "arxiv_id": "2503.04153v1",
+      "abstract": "Privacy-preserving medical decision support for kidney disease requires\nlocalized deployment of large language models (LLMs) while maintaining clinical\nreasoning capabilities. Current solutions face three challenges: 1) Cloud-based\nLLMs pose data security risks; 2) Local model deployment demands technical\nexpertise; 3) General LLMs lack mechanisms to integrate medical knowledge.\nRetrieval-augmented systems also struggle with medical document processing and\nclinical usability. We developed KidneyTalk-open, a desktop system integrating\nthree technical components: 1) No-code deployment of state-of-the-art (SOTA)\nopen-source LLMs (such as DeepSeek-r1, Qwen2.5) via local inference engine; 2)\nMedical document processing pipeline combining context-aware chunking and\nintelligent filtering; 3) Adaptive Retrieval and Augmentation Pipeline (AddRep)\nemploying agents collaboration for improving the recall rate of medical\ndocuments. A graphical interface was designed to enable clinicians to manage\nmedical documents and conduct AI-powered consultations without technical\nexpertise. Experimental validation on 1,455 challenging nephrology exam\nquestions demonstrates AddRep's effectiveness: achieving 29.1% accuracy (+8.1%\nover baseline) with intelligent knowledge integration, while maintaining\nrobustness through 4.9% rejection rate to suppress hallucinations. Comparative\ncase studies with the mainstream products (AnythingLLM, Chatbox, GPT4ALL)\ndemonstrate KidneyTalk-open's superior performance in real clinical query.\nKidneyTalk-open represents the first no-code medical LLM system enabling secure\ndocumentation-enhanced medical Q&A on desktop. Its designs establishes a new\nframework for privacy-sensitive clinical AI applications. The system\nsignificantly lowers technical barriers while improving evidence traceability,\nenabling more medical staff or patients to use SOTA open-source LLMs\nconveniently.",
+      "authors": [
+        "Yongchao Long",
+        "Chao Yang",
+        "Gongzheng Tang",
+        "Jinwei Wang",
+        "Zhun Sui",
+        "Yuxi Zhou",
+        "Shenda Hong",
+        "Luxia Zhang"
+      ],
+      "published_date": "2025-03-06T07:01:36+00:00",
+      "updated_date": "2025-03-06T07:01:36+00:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "entry_id": "http://arxiv.org/abs/2503.04153v1",
+      "pdf_url": "http://arxiv.org/pdf/2503.04153v1"
+    },
+    {
+      "title": "Dynamic LLM Routing and Selection based on User Preferences: Balancing Performance, Cost, and Ethics",
+      "arxiv_id": "2502.16696v1",
+      "abstract": "With the widespread deployment of large language models (LLMs) such as GPT4,\nBART, and LLaMA, the need for a system that can intelligently select the most\nsuitable model for specific tasks while balancing cost, latency, accuracy, and\nethical considerations has become increasingly important. Recognizing that not\nall tasks necessitate models with over 100 billion parameters, we introduce\nOptiRoute, an advanced model routing engine designed to dynamically select and\nroute tasks to the optimal LLM based on detailed user-defined requirements.\nOptiRoute captures both functional (e.g., accuracy, speed, cost) and\nnon-functional (e.g., helpfulness, harmlessness, honesty) criteria, leveraging\nlightweight task analysis and complexity estimation to efficiently match tasks\nwith the best-fit models from a diverse array of LLMs. By employing a hybrid\napproach combining k-nearest neighbors (kNN) search and hierarchical filtering,\nOptiRoute optimizes for user priorities while minimizing computational\noverhead. This makes it ideal for real-time applications in cloud-based ML\nplatforms, personalized AI services, and regulated industries.",
+      "authors": [
+        "Deepak Babu Piskala",
+        "Vijay Raajaa",
+        "Sachin Mishra",
+        "Bruno Bozza"
+      ],
+      "published_date": "2025-02-23T19:23:22+00:00",
+      "updated_date": "2025-02-23T19:23:22+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "entry_id": "http://arxiv.org/abs/2502.16696v1",
+      "pdf_url": "http://arxiv.org/pdf/2502.16696v1"
+    },
+    {
+      "title": "QUAD-LLM-MLTC: Large Language Models Ensemble Learning for Healthcare Text Multi-Label Classification",
+      "arxiv_id": "2502.14189v2",
+      "abstract": "The escalating volume of collected healthcare textual data presents a unique\nchallenge for automated Multi-Label Text Classification (MLTC), which is\nprimarily due to the scarcity of annotated texts for training and their nuanced\nnature. Traditional machine learning models often fail to fully capture the\narray of expressed topics. However, Large Language Models (LLMs) have\ndemonstrated remarkable effectiveness across numerous Natural Language\nProcessing (NLP) tasks in various domains, which show impressive computational\nefficiency and suitability for unsupervised learning through prompt\nengineering. Consequently, these LLMs promise an effective MLTC of medical\nnarratives. However, when dealing with various labels, different prompts can be\nrelevant depending on the topic. To address these challenges, the proposed\napproach, QUAD-LLM-MLTC, leverages the strengths of four LLMs: GPT-4o, BERT,\nPEGASUS, and BART. QUAD-LLM-MLTC operates in a sequential pipeline in which\nBERT extracts key tokens, PEGASUS augments textual data, GPT-4o classifies, and\nBART provides topics' assignment probabilities, which results in four\nclassifications, all in a 0-shot setting. The outputs are then combined using\nensemble learning and processed through a meta-classifier to produce the final\nMLTC result. The approach is evaluated using three samples of annotated texts,\nwhich contrast it with traditional and single-model methods. The results show\nsignificant improvements across the majority of the topics in the\nclassification's F1 score and consistency (F1 and Micro-F1 scores of 78.17% and\n80.16% with standard deviations of 0.025 and 0.011, respectively). This\nresearch advances MLTC using LLMs and provides an efficient and scalable\nsolution to rapidly categorize healthcare-related text data without further\ntraining.",
+      "authors": [
+        "Hajar Sakai",
+        "Sarah S. Lam"
+      ],
+      "published_date": "2025-02-20T01:46:12+00:00",
+      "updated_date": "2025-03-03T04:11:31+00:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "entry_id": "http://arxiv.org/abs/2502.14189v2",
+      "pdf_url": "http://arxiv.org/pdf/2502.14189v2"
+    },
+    {
+      "title": "Delta -- Contrastive Decoding Mitigates Text Hallucinations in Large Language Models",
+      "arxiv_id": "2502.05825v1",
+      "abstract": "Large language models (LLMs) demonstrate strong capabilities in natural\nlanguage processing but remain prone to hallucinations, generating factually\nincorrect or fabricated content. This issue undermines their reliability,\nparticularly in high-stakes domains such as healthcare and legal advisory. To\naddress this challenge, we propose Delta, an inference-time method that reduces\nhallucinations without requiring model retraining or additional data. Delta\nworks by randomly masking parts of the input prompt and contrasting the output\ndistributions for the original and masked inputs, effectively suppressing\nhallucinations through inference-only computations. We evaluate Delta on\ncontext-rich question-answering benchmarks, achieving absolute improvements of\napproximately 3 and 6 percentage points on SQuAD v1.1 and v2, respectively, and\n7 and 2 percentage points on TriviaQA and Natural Questions under-sampling\ndecoding. Delta also improves the no-answer exact match score on SQuAD v2 by\nover ten percentage points, demonstrating its effectiveness in mitigating\nhallucinations arising from contextual ambiguity. These results highlight Delta\nas a computationally efficient and scalable approach for improving the\nreliability of LLMs in real-world applications.",
+      "authors": [
+        "Cheng Peng Huang",
+        "Hao-Yuan Chen"
+      ],
+      "published_date": "2025-02-09T09:16:42+00:00",
+      "updated_date": "2025-02-09T09:16:42+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "entry_id": "http://arxiv.org/abs/2502.05825v1",
+      "pdf_url": "http://arxiv.org/pdf/2502.05825v1"
+    },
+    {
+      "title": "Multimodal AI predicts clinical outcomes of drug combinations from preclinical data",
+      "arxiv_id": "2503.02781v1",
+      "abstract": "Predicting clinical outcomes from preclinical data is essential for\nidentifying safe and effective drug combinations. Current models rely on\nstructural or target-based features to identify high-efficacy, low-toxicity\ndrug combinations. However, these approaches fail to incorporate the multimodal\ndata necessary for accurate, clinically-relevant predictions. Here, we\nintroduce MADRIGAL, a multimodal AI model that learns from structural, pathway,\ncell viability, and transcriptomic data to predict drug combination effects\nacross 953 clinical outcomes and 21842 compounds, including combinations of\napproved drugs and novel compounds in development. MADRIGAL uses a transformer\nbottleneck module to unify preclinical drug data modalities while handling\nmissing data during training and inference--a major challenge in multimodal\nlearning. It outperforms single-modality methods and state-of-the-art models in\npredicting adverse drug interactions. MADRIGAL performs virtual screening of\nanticancer drug combinations and supports polypharmacy management for type II\ndiabetes and metabolic dysfunction-associated steatohepatitis (MASH). It\nidentifies transporter-mediated drug interactions. MADRIGAL predicts\nresmetirom, the first and only FDA-approved drug for MASH, among therapies with\nthe most favorable safety profile. It supports personalized cancer therapy by\nintegrating genomic profiles from cancer patients. Using primary acute myeloid\nleukemia samples and patient-derived xenograft models, it predicts the efficacy\nof personalized drug combinations. Integrating MADRIGAL with a large language\nmodel allows users to describe clinical outcomes in natural language, improving\nsafety assessment by identifying potential adverse interactions and toxicity\nrisks. MADRIGAL provides a multimodal approach for designing combination\ntherapies with improved predictive accuracy and clinical relevance.",
+      "authors": [
+        "Yepeng Huang",
+        "Xiaorui Su",
+        "Varun Ullanat",
+        "Ivy Liang",
+        "Lindsay Clegg",
+        "Damilola Olabode",
+        "Nicholas Ho",
+        "Bino John",
+        "Megan Gibbs",
+        "Marinka Zitnik"
+      ],
+      "published_date": "2025-03-04T16:55:14+00:00",
+      "updated_date": "2025-03-04T16:55:14+00:00",
+      "categories": [
+        "q-bio.QM",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "entry_id": "http://arxiv.org/abs/2503.02781v1",
+      "pdf_url": "http://arxiv.org/pdf/2503.02781v1"
+    }
+  ],
+  "paper_evaluations": {
+    "2503.01442v1": {
+      "title": "Leveraging LLMs for Mental Health: Detection and Recommendations from Social Discussions",
+      "arxiv_id": "2503.01442v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 7
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the research gap of personalized care in mental health through LLMs",
+        "Utilizes advanced NLP techniques to extract nuanced semantic features from social discussions",
+        "Contributes to the broader field of mental health surveillance and digital health analytics"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines tailored for mental health applications of LLMs",
+        "Can contribute to the exploration of LLM integration with other technologies for enhanced mental health care"
+      ],
+      "strengths": [
+        "Hybrid approach combining pre-trained models and LLMs for improved understanding of mental health discourse",
+        "Provides valuable insights into the strengths and limitations of different NLP models"
+      ],
+      "limitations": [
+        "Reliance on Reddit data may limit the generalizability of the findings to other social platforms",
+        "Limited discussion on the scalability and long-term effectiveness of the proposed framework"
+      ]
+    },
+    "2503.04153v1": {
+      "title": "KidneyTalk-open: No-code Deployment of a Private Large Language Model with Medical Documentation-Enhanced Knowledge Database for Kidney Disease",
+      "arxiv_id": "2503.04153v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 9,
+        "Innovation": 8
+      },
+      "overall_score": 0.82,
+      "relevance_points": [
+        "Addresses the research gap of no-code deployment of LLMs in healthcare settings",
+        "Contributes to the development and deployment guidelines tailored for healthcare applications of LLMs",
+        "Innovative approach to integrating medical knowledge with LLMs for improved clinical decision support"
+      ],
+      "application_suggestions": [
+        "This paper can help in further exploring the integration of LLMs with other technologies like IoMT and blockchain for enhanced patient care",
+        "The methodology used in this paper can be applied to validate the HAIM framework across diverse healthcare environments and datasets"
+      ],
+      "strengths": [
+        "Provides a solution to the challenges of privacy-preserving medical decision support for kidney disease",
+        "Innovative use of no-code deployment and medical document processing pipeline for LLM integration",
+        "Demonstrates superior performance in real clinical query compared to mainstream products"
+      ],
+      "limitations": [
+        "Reliance on a single dataset for evaluation may limit the generalizability of the findings",
+        "Limited discussion on the scalability of the system in real-world clinical settings"
+      ]
+    },
+    "2502.11211v1": {
+      "title": "A Survey of LLM-based Agents in Medicine: How far are we from Baymax?",
+      "arxiv_id": "2502.11211v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 7
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the research gap of insufficient exploration of LLM integration with other technologies in healthcare",
+        "Contributes to the theoretical understanding of LLM-based agents in medicine",
+        "Provides insights into the practical applications of LLMs in healthcare settings"
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines tailored for healthcare applications of LLMs by analyzing the challenges and opportunities in current LLM-based agents",
+        "The findings can be used to enhance the integration of LLMs with other technologies like IoMT and blockchain for improved patient care",
+        "Researchers can use the evaluation frameworks and metrics discussed in the paper to assess the performance of LLM-based agents in healthcare settings"
+      ],
+      "strengths": [
+        "Comprehensive review of LLM-based agents in medicine",
+        "Addresses challenges such as hallucination management, multimodal integration, and ethical considerations",
+        "Highlights future research directions for advancing medical reasoning and training simulations"
+      ],
+      "limitations": [
+        "May lack in-depth analysis of specific LLM architectures and their performance in healthcare",
+        "Could benefit from more detailed discussion on the ethical considerations and implementation barriers"
+      ]
+    },
+    "2502.21236v1": {
+      "title": "Transforming Tuberculosis Care: Optimizing Large Language Models For Enhanced Clinician-Patient Communication",
+      "arxiv_id": "2502.21236v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 8
+      },
+      "overall_score": 0.76,
+      "relevance_points": [
+        "Addresses the research gap of enhancing patient engagement in healthcare settings",
+        "Utilizes Large Language Models to improve clinician-patient communication, aligning with the need for tailored LLM applications in healthcare",
+        "Contributes to the field of personalized healthcare through innovative AI-powered approaches"
+      ],
+      "application_suggestions": [
+        "This paper can help in exploring the integration of LLMs with healthcare data, specifically in the context of TB treatment and patient support",
+        "The AI-powered approach proposed in this paper can be applied to other infectious diseases or chronic conditions to enhance patient engagement and treatment outcomes"
+      ],
+      "strengths": [
+        "Innovative approach of integrating a specialized Large Language Model into digital adherence technology for TB care",
+        "Human-in-the-loop framework ensures a balance between AI automation and human oversight in healthcare communication",
+        "Focus on enhancing patient engagement and treatment outcomes in low- and middle-income countries with limited healthcare access"
+      ],
+      "limitations": [
+        "Limited discussion on the scalability and generalizability of the proposed approach beyond TB care",
+        "Potential challenges in implementing and adapting the AI-powered approach in diverse healthcare settings"
+      ]
+    },
+    "2503.00269v1": {
+      "title": "Reducing Large Language Model Safety Risks in Women's Health using Semantic Entropy",
+      "arxiv_id": "2503.00269v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 8,
+        "Innovation": 8
+      },
+      "overall_score": 0.8,
+      "relevance_points": [
+        "Addresses the research gap of ensuring reliability of AI-generated responses in healthcare, particularly in women's health",
+        "Contributes to the theoretical understanding of using semantic entropy as a novel uncertainty metric in detecting hallucinations in AI-generated medical content",
+        "Has practical application in improving AI safety in women's health and enabling more reliable AI integration into clinical practice"
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines specifically tailored for healthcare applications of LLMs by showcasing the effectiveness of semantic entropy in improving AI safety in women's health",
+        "The findings of this paper can contribute to the development of methodologies to handle ethical concerns associated with the use of multimodal patient data in AI systems by highlighting the importance of uncertainty metrics like semantic entropy"
+      ],
+      "strengths": [
+        "Demonstrates the superior performance of semantic entropy over traditional uncertainty metrics like perplexity in identifying uncertain responses in AI-generated medical content",
+        "Provides empirical evidence of the effectiveness of semantic entropy in improving AI safety in women's health through clinical expert validation"
+      ],
+      "limitations": [
+        "The study focuses specifically on women's health, limiting the generalizability of the findings to other healthcare settings",
+        "The success rate of semantic clustering was relatively low, indicating potential challenges in its application in certain cases"
+      ]
+    },
+    "2502.14632v1": {
+      "title": "Augmenting Coaching with GenAI: Insights into Use, Effectiveness, and Future Potential",
+      "arxiv_id": "2502.14632v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 6
+      },
+      "overall_score": 0.68,
+      "relevance_points": [
+        "Addresses the gap in understanding the adoption and impact of AI tools in professional coaching",
+        "Relevant to the research gap on ethical considerations of AI integration in healthcare by discussing transparency and data privacy concerns",
+        "Contributes to the exploration of AI literacy and its influence on technology adoption"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines for the ethical use of AI tools in healthcare settings based on the findings related to transparency and data privacy concerns",
+        "Provides insights into the importance of human oversight in AI-augmented processes, which can be applied to the development of AI-driven decision support tools in healthcare",
+        "Offers a framework for AI literacy training that can be adapted for healthcare professionals to enhance the integration of AI technologies"
+      ],
+      "strengths": [
+        "Provides empirical insights into the adoption and impact of GenAI tools in professional coaching",
+        "Addresses ethical considerations and the need for human-centered AI integration in the context of coaching",
+        "Highlights the potential benefits of AI augmentation while emphasizing the importance of maintaining human oversight"
+      ],
+      "limitations": [
+        "Limited focus on the specific applications of GenAI in healthcare settings, which could have provided more direct relevance to the identified research gaps",
+        "Reliance on survey data may limit the depth of understanding compared to more extensive clinical testing or qualitative research methods"
+      ]
+    },
+    "2502.21092v1": {
+      "title": "An LLM-based Delphi Study to Predict GenAI Evolution",
+      "arxiv_id": "2502.21092v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 6,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 7,
+        "Practical Application": 5,
+        "Innovation": 9
+      },
+      "overall_score": 0.7,
+      "relevance_points": [
+        "Addresses the research gap of ethical considerations in LLM applications",
+        "Contributes to the theoretical understanding of using LLMs for qualitative forecasting",
+        "Relevant to the integration of external data sources in LLM-based studies"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines for LLM applications in healthcare",
+        "Provides insights into the potential of LLMs for scenario analysis in healthcare",
+        "Offers a new perspective on using LLMs for structured foresight in healthcare settings"
+      ],
+      "strengths": [
+        "Innovative approach of using LLMs for Delphi studies",
+        "Reveals insights into key factors affecting the evolution of Generative Artificial Intelligence",
+        "Highlights the potential of LLM-based Delphi studies for capturing diverse perspectives"
+      ],
+      "limitations": [
+        "Limited practical application in healthcare settings",
+        "Issues with knowledge cutoffs, biases, and sensitivity to initial conditions",
+        "Need for further research to refine the methodology"
+      ]
+    },
+    "2502.21321v1": {
+      "title": "LLM Post-Training: A Deep Dive into Reasoning Large Language Models",
+      "arxiv_id": "2502.21321v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 9
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the need for further breakthroughs in LLMs beyond pretraining",
+        "Analyzes the role of post-training methods in refining LLMs knowledge and reasoning",
+        "Highlights key challenges such as inference-time trade-offs, aligning with user intents, and ethical considerations"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines tailored for healthcare applications of LLMs by providing insights into optimizing LLM performance",
+        "Contributes to the exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care by discussing scalable adaptation and inference-time reasoning",
+        "Offers insights into the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare, aiding in the development of methodologies to handle ethical and privacy concerns"
+      ],
+      "strengths": [
+        "Provides a systematic exploration of post-training methodologies for LLMs",
+        "Addresses key challenges in refining LLMs knowledge and reasoning beyond pretraining",
+        "Offers a public repository to track developments in the field, promoting transparency and collaboration"
+      ],
+      "limitations": [
+        "May not directly address specific healthcare applications or personalized medicine aspects of LLMs",
+        "Focuses more on linguistic foundation and reasoning enhancement, potentially overlooking the integration with healthcare data"
+      ]
+    },
+    "2502.16696v1": {
+      "title": "Dynamic LLM Routing and Selection based on User Preferences: Balancing Performance, Cost, and Ethics",
+      "arxiv_id": "2502.16696v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 8,
+        "Innovation": 9
+      },
+      "overall_score": 0.82,
+      "relevance_points": [
+        "Addresses the research gap of balancing performance, cost, and ethics in LLM selection, which is crucial for healthcare applications",
+        "Relevant to the integration of LLMs with healthcare data and personalized healthcare through dynamic model routing based on user preferences",
+        "Contributes to the ethical considerations of LLMs in healthcare by incorporating harmlessness and honesty criteria in model selection"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines tailored for healthcare applications of LLMs by providing a method for dynamically selecting optimal models based on user-defined requirements",
+        "Contributes to the exploration of LLM integration with other technologies like IoMT and blockchain by showcasing a hybrid approach for optimizing user priorities and minimizing computational overhead",
+        "Offers insights into the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare through its detailed user-defined requirements for model selection"
+      ],
+      "strengths": [
+        "Innovative approach to dynamically selecting and routing tasks to optimal LLMs based on user-defined requirements",
+        "Addresses the need for balancing performance, cost, and ethics in LLM selection, which is crucial for real-time applications in cloud-based ML platforms and regulated industries",
+        "Contributes to the theoretical understanding of LLM utilization by incorporating both functional and non-functional criteria in model selection"
+      ],
+      "limitations": [
+        "May lack extensive clinical testing and benchmarking in healthcare settings to validate the performance of the OptiRoute model routing engine",
+        "The focus on computational efficiency and user-defined requirements may overlook the scalability and generalizability of the approach across diverse healthcare environments"
+      ]
+    },
+    "2502.19730v1": {
+      "title": "Do Expressions Change Decisions? Exploring the Impact of AI's Explanation Tone on Decision-Making",
+      "arxiv_id": "2502.19730v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 6
+      },
+      "overall_score": 0.68,
+      "relevance_points": [
+        "Addresses the gap in understanding how explanation tone influences decision-making in AI-driven systems, which is relevant to the research gap on user acceptance and user retention of LLM-based healthcare interventions.",
+        "Contributes to the research gap on ethical considerations by highlighting the importance of tone consistency and ethical implications in AI interactions.",
+        "Relevant to the research area of Conversational AI in Healthcare by exploring the impact of AI's explanation tone on user decision-making in different scenarios."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines tailored for healthcare applications of LLMs by providing insights into the importance of explanation tone consistency and ethical considerations.",
+        "The findings of this paper can be applied to enhance patient engagement in healthcare settings by understanding how different tones in AI explanations influence user decision-making.",
+        "It can also contribute to the development of AI-driven decision support tools by emphasizing the significance of explanation tone adjustments to enhance user experience and decision outcomes."
+      ],
+      "strengths": [
+        "Methodologically relevant user experiments conducted across different AI roles and user attributes to investigate the impact of explanation tone on decision-making.",
+        "Provides crucial insights into the design of explanation expressions, highlighting the influence of tone on decision outcomes and user perceptions.",
+        "Addresses the practical application of AI-driven decision support systems by emphasizing the importance of explanation tone adjustments for enhancing user experience."
+      ],
+      "limitations": [
+        "The study focuses on the impact of explanation tone in decision-making without considering other factors that may influence user decisions in AI interactions.",
+        "Limited generalizability of the findings to broader healthcare settings or other industries beyond the scenarios tested in the study."
+      ]
+    },
+    "2503.01159v1": {
+      "title": "Large Language Models for Healthcare Text Classification: A Systematic Review",
+      "arxiv_id": "2503.01159v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 6,
+        "Practical Application": 8,
+        "Innovation": 7
+      },
+      "overall_score": 0.72,
+      "relevance_points": [
+        "Addresses the gap in the literature regarding the use of LLMs for text classification in healthcare settings",
+        "Focuses on the critical need to preserve patients' data privacy in healthcare text classification",
+        "Explores the complexity of medical terminology in the context of text classification"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines tailored for healthcare applications of LLMs",
+        "Provides insights for integrating LLMs with other technologies like IoMT and blockchain for enhanced patient care",
+        "Offers a foundation for further research on personalized medicine and drug discovery applications of LLMs"
+      ],
+      "strengths": [
+        "Systematic review approach within the framework of PRISMA guidelines",
+        "Categorization of research articles by text classification type, application, methodology, and metrics used for evaluation and validation",
+        "Identification of existing gaps in the literature and suggestions for future research directions"
+      ],
+      "limitations": [
+        "Limited focus on the specific performance metrics used for evaluation and validation",
+        "Potential bias in the selection of databases and resources queried for the review"
+      ]
+    },
+    "2503.07450v1": {
+      "title": "From Idea to Implementation: Evaluating the Influence of Large Language Models in Software Development -- An Opinion Paper",
+      "arxiv_id": "2503.07450v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 6,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 5,
+        "Practical Application": 8,
+        "Innovation": 4
+      },
+      "overall_score": 0.6,
+      "relevance_points": [
+        "Addresses the potential of Large Language Models (LLMs) in software development, which aligns with the research gap of exploring LLM integration with other technologies in healthcare.",
+        "Highlights the advantages and challenges of using LLMs in software development, providing insights that can be applied to other domains like healthcare.",
+        "Raises ethical considerations related to LLM usage, which is relevant in the context of integrating LLMs into healthcare settings."
+      ],
+      "application_suggestions": [
+        "The paper can help in understanding the practical implications of integrating LLMs into different domains by drawing parallels from software development to healthcare applications.",
+        "Insights on productivity increase and reduced coding time from LLM usage in software development can guide the development and deployment of LLMs in healthcare settings for improved efficiency.",
+        "The ethical concerns highlighted in the paper can inform the development of guidelines tailored for healthcare applications of LLMs, addressing the gap in handling ethical and privacy concerns associated with multimodal patient data in AI systems."
+      ],
+      "strengths": [
+        "Provides opinions from experts in the field, offering valuable insights on the practical implications of using LLMs in software development.",
+        "Addresses both advantages and potential challenges of LLM integration, providing a balanced perspective on the topic.",
+        "Highlights the influence of LLMs in software development, showcasing their potential for enhancing productivity and efficiency."
+      ],
+      "limitations": [
+        "Lacks extensive empirical data or quantitative analysis to support the opinions gathered from experts.",
+        "Focuses primarily on software development, limiting the generalizability of the findings to other domains like healthcare."
+      ]
+    },
+    "2502.15871v1": {
+      "title": "A Comprehensive Survey on the Trustworthiness of Large Language Models in Healthcare",
+      "arxiv_id": "2502.15871v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 9,
+        "Practical Application": 8,
+        "Innovation": 8
+      },
+      "overall_score": 0.8,
+      "relevance_points": [
+        "Addresses critical challenges in trustworthiness of LLMs in healthcare, aligning with research gaps in privacy, safety, fairness, and explainability",
+        "Provides a comprehensive overview of existing methodologies and solutions to mitigate risks in healthcare, contributing to the theoretical understanding of LLM deployment",
+        "Offers insights into future research directions for the safe and trustworthy use of LLMs in healthcare"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines tailored for healthcare applications of LLMs by highlighting key trustworthiness dimensions",
+        "Provides a basis for further exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care",
+        "Offers a framework for assessing the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare"
+      ],
+      "strengths": [
+        "Thorough analysis of trustworthiness dimensions including truthfulness, privacy, safety, robustness, fairness, and explainability in LLM deployment",
+        "Bridges the gap in understanding the trustworthiness of LLMs in healthcare by reviewing recent research and methodologies",
+        "Highlights ongoing efforts and future research directions for the safe and ethical deployment of LLMs in healthcare"
+      ],
+      "limitations": [
+        "May lack specific empirical validation or case studies to support the theoretical contributions",
+        "Focuses more on the overview and analysis of existing methodologies rather than proposing new solutions"
+      ]
+    },
+    "2502.11861v1": {
+      "title": "Exploring Large Language Models in Healthcare: Insights into Corpora Sources, Customization Strategies, and Evaluation Metrics",
+      "arxiv_id": "2502.11861v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 6
+      },
+      "overall_score": 0.68,
+      "relevance_points": [
+        "Addresses the research gap of customization strategies for LLMs in healthcare",
+        "Highlights the need for better integration of evidence-based clinical guidelines",
+        "Calls for comprehensive validation of LLMs in real-world healthcare settings"
+      ],
+      "application_suggestions": [
+        "Can help in developing a tiered corpus architecture with vetted sources and dynamic weighting",
+        "Can contribute to the development of standardized evaluation frameworks for domain-specific LLMs"
+      ],
+      "strengths": [
+        "Systematic review approach to identify relevant studies",
+        "Addresses critical gaps in corpus fairness and biases in LLM applications",
+        "Provides insights into common construction techniques and evaluation metrics used in LLMs"
+      ],
+      "limitations": [
+        "Reliance on unverified or unstructured data may impact the reliability of findings",
+        "Lack of detailed discussion on the specific customization strategies and their effectiveness"
+      ]
+    },
+    "2502.17487v2": {
+      "title": "User Intent to Use DeepSeek for Healthcare Purposes and their Trust in the Large Language Model: Multinational Survey Study",
+      "arxiv_id": "2502.17487v2",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 8,
+        "Practical Application": 7,
+        "Innovation": 6
+      },
+      "overall_score": 0.72,
+      "relevance_points": [
+        "Addresses the gap in understanding user acceptance of LLMs in healthcare settings",
+        "Examines trust, ease of use, perceived usefulness, and risk perception, which are crucial factors in LLM adoption",
+        "Highlights the importance of trust-building strategies and risk mitigation measures for LLM uptake in healthcare"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines tailored for healthcare applications of LLMs by emphasizing the importance of trust and risk perception",
+        "Provides insights into user-centric design and trust-building strategies that can enhance the integration of LLMs with other technologies like IoMT and blockchain",
+        "Offers a framework for assessing user adoption of LLM-based platforms that can be applied to personalized medicine and drug discovery applications"
+      ],
+      "strengths": [
+        "Strong reliability and validity in the measurement model",
+        "Examines both direct and indirect effects of ease of use, perceived usefulness, trust, and risk perception on LLM adoption intentions",
+        "Identifies non-linear paths for ease of use and risk perception, indicating threshold effects"
+      ],
+      "limitations": [
+        "Limited to a cross-sectional survey design, which may not capture the evolving nature of user perceptions over time",
+        "Focused on three specific countries (India, UK, US), limiting the generalizability of the findings to diverse healthcare environments"
+      ]
+    },
+    "2502.14189v2": {
+      "title": "QUAD-LLM-MLTC: Large Language Models Ensemble Learning for Healthcare Text Multi-Label Classification",
+      "arxiv_id": "2502.14189v2",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 8,
+        "Innovation": 9
+      },
+      "overall_score": 0.82,
+      "relevance_points": [
+        "Addresses the research gap of limited research on personalized medicine and drug discovery applications of LLMs.",
+        "Relevant to the research gap of insufficient exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care.",
+        "Contributes to the research gap of the scarcity of studies on the long-term effectiveness and user retention of LLM-based healthcare interventions."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing and deploying guidelines specifically tailored for healthcare applications of LLMs.",
+        "The approach presented in this paper can be used to explore the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare."
+      ],
+      "strengths": [
+        "Innovative approach leveraging the strengths of four LLMs in a sequential pipeline for healthcare text multi-label classification.",
+        "Significant improvements in classification F1 score and consistency compared to traditional and single-model methods."
+      ],
+      "limitations": [
+        "Reliance on a single dataset for evaluation may limit the generalizability of the findings across different healthcare settings."
+      ]
+    },
+    "2503.05768v1": {
+      "title": "A Collection of Innovations in Medical AI for patient records in 2024",
+      "arxiv_id": "2503.05768v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 4,
+        "Methodological Relevance": 6,
+        "Theoretical Contribution": 3,
+        "Practical Application": 5,
+        "Innovation": 7
+      },
+      "overall_score": 0.5,
+      "relevance_points": [
+        "Addresses the rapid advancements in machine learning and large language models in healthcare",
+        "Advocates for a new category of academic publications to capture the latest state of the art methodologies",
+        "Enhances the relevance of AI research in healthcare by prioritizing recent innovations"
+      ],
+      "application_suggestions": [
+        "Can help bridge the gap in traditional academic publishing cycles by focusing on annualized citation frameworks",
+        "Provides a model for prioritizing the most recent AI-driven healthcare innovations in research",
+        "Encourages a more adaptive and informed discourse in the field of AI in healthcare"
+      ],
+      "strengths": [
+        "Innovative approach of advocating for a new category of academic publications",
+        "Acknowledges the rapid pace of AI development and the need for current research in healthcare",
+        "Emphasizes the importance of capturing the latest state of the art methodologies in AI-driven healthcare innovations"
+      ],
+      "limitations": [
+        "Lacks specific details on how the proposed annualized citation framework would address the identified research gaps",
+        "May not provide in-depth analysis or empirical evidence on the practical implications of the proposed approach"
+      ]
+    },
+    "2502.05879v1": {
+      "title": "Enhancing Depression Detection with Chain-of-Thought Prompting: From Emotion to Reasoning Using Large Language Models",
+      "arxiv_id": "2502.05879v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 8,
+        "Innovation": 8
+      },
+      "overall_score": 0.8,
+      "relevance_points": [
+        "Addresses the research gap of lack of extensive clinical testing and benchmarking to validate LLM performance in healthcare settings by proposing a structured reasoning approach for depression detection.",
+        "Relevant to the research gap of limited research on personalized medicine and drug discovery applications of LLMs by focusing on symptom identification and severity assessment in mental health conditions.",
+        "Contributes to the research gap of insufficient exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care through its innovative Chain-of-Thought Prompting technique."
+      ],
+      "application_suggestions": [
+        "This paper can help advance the development and deployment guidelines specifically tailored for healthcare applications of LLMs by providing a structured approach for improving interpretability and diagnostic insights.",
+        "The proposed Chain-of-Thought Prompting method can be applied to other healthcare domains beyond depression detection to enhance the performance and granularity of diagnostic processes.",
+        "Researchers can use the experimental results and methodology of this paper to further explore the integration of LLMs with healthcare data and improve the accuracy of mental health condition classification."
+      ],
+      "strengths": [
+        "Innovative approach of breaking down the detection process into structured reasoning steps to enhance interpretability and diagnostic insights.",
+        "Demonstrates superior performance in both classification accuracy and granularity of diagnostic insights compared to baseline approaches.",
+        "Relevant to current advancements in LLMs and their potential applications in addressing mental health challenges."
+      ],
+      "limitations": [
+        "Reliance on a single dataset (E-DAIC) for validation may limit the generalizability of the findings across different healthcare settings.",
+        "Does not extensively explore the scalability of the proposed Chain-of-Thought Prompting technique in real-world clinical settings or its integration with existing healthcare IT systems."
+      ]
+    },
+    "2502.05825v1": {
+      "title": "Delta -- Contrastive Decoding Mitigates Text Hallucinations in Large Language Models",
+      "arxiv_id": "2502.05825v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 8,
+        "Innovation": 9
+      },
+      "overall_score": 0.82,
+      "relevance_points": [
+        "Addresses the research gap of mitigating text hallucinations in LLMs, which is crucial for improving reliability in high-stakes domains like healthcare",
+        "Relevant to the exploration of LLM integration with other technologies to enhance patient care by focusing on improving the reliability of LLM outputs",
+        "Contributes to the understanding of how inference-time methods can be used to reduce hallucinations in LLMs without requiring retraining"
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines tailored for healthcare applications of LLMs by providing a method to improve reliability without retraining",
+        "The approach presented in this paper can be applied to personalized medicine and drug discovery applications of LLMs to ensure the accuracy of generated content",
+        "The findings of this paper can assist in assessing the clinical utility and user acceptance of LLM-driven decision support tools by enhancing the reliability of LLM outputs"
+      ],
+      "strengths": [
+        "Innovative approach of using contrastive decoding at inference time to mitigate text hallucinations in LLMs",
+        "Demonstrates significant improvements in reducing hallucinations on various question-answering benchmarks",
+        "Provides a computationally efficient and scalable method for improving the reliability of LLMs in real-world applications"
+      ],
+      "limitations": [
+        "Focuses primarily on the performance improvements in question-answering benchmarks, limiting the generalizability to other healthcare applications",
+        "Does not extensively discuss the ethical considerations associated with the use of LLMs in healthcare settings"
+      ]
+    },
+    "2502.06666v1": {
+      "title": "Automatic Evaluation of Healthcare LLMs Beyond Question-Answering",
+      "arxiv_id": "2502.06666v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 6,
+        "Practical Application": 8,
+        "Innovation": 7
+      },
+      "overall_score": 0.72,
+      "relevance_points": [
+        "Addresses the need for benchmarking and evaluating LLM performance in healthcare settings",
+        "Contributes to the exploration of healthcare LLM integration with other technologies",
+        "Focuses on the importance of factuality and discourse in healthcare LLM evaluations"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines tailored for healthcare applications of LLMs",
+        "Provides insights into the evaluation of LLM-based healthcare interventions for long-term effectiveness and user retention"
+      ],
+      "strengths": [
+        "Introduces a comprehensive, multi-axis suite for healthcare LLM evaluation",
+        "Proposes a novel metric for open-ended evaluations to mitigate limitations",
+        "Releases a new medical benchmark --CareQA-- with both open and closed variants"
+      ],
+      "limitations": [
+        "May not extensively address all research gaps identified in the healthcare LLM field",
+        "Focuses primarily on evaluation methodologies rather than the development or deployment of LLMs in healthcare"
+      ]
+    },
+    "2502.13953v1": {
+      "title": "Neurosymbolic artificial intelligence via large language models and coherence-driven inference",
+      "arxiv_id": "2502.13953v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 5,
+        "Innovation": 9
+      },
+      "overall_score": 0.7,
+      "relevance_points": [
+        "Addresses the gap in exploring LLM integration with other technologies for enhanced patient care",
+        "Contributes to the understanding of multimodal learning in healthcare applications",
+        "Provides insights into the potential of AI-driven decision support tools in healthcare"
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines tailored for healthcare applications of LLMs by showcasing the coherence-driven inference approach",
+        "The findings can contribute to the development of methodologies to handle ethical concerns associated with the use of multimodal patient data in AI systems",
+        "The study can aid in assessing the clinical utility and user acceptance of AI-driven decision support tools developed using innovative approaches like coherence-driven inference"
+      ],
+      "strengths": [
+        "Innovative approach combining large language models with coherence-driven inference",
+        "Relevant to the intersection of AI and healthcare applications",
+        "Contributes to advancing the state of the art in machine cognition"
+      ],
+      "limitations": [
+        "Limited discussion on the practical application and real-world implementation of the proposed algorithm",
+        "Focuses more on theoretical contributions than on practical implications for healthcare settings"
+      ]
+    },
+    "2502.08908v1": {
+      "title": "Reinforced Large Language Model is a formal theorem prover",
+      "arxiv_id": "2502.08908v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 9
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the research gap of limited research on personalized medicine and drug discovery applications of LLMs by proposing a reinforcement learning framework for theorem formalization and proof.",
+        "Contributes to the research gap of insufficient exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care by demonstrating the effectiveness of optimizing pretrained LLMs using reinforcement learning.",
+        "Relevant to the research gap of development of methodologies to handle ethical and privacy concerns associated with the use of multimodal patient data in AI systems by showcasing a method to iteratively optimize LLMs while comparing tactics."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing and deploying guidelines specifically tailored for healthcare applications of LLMs by providing a methodological approach to optimize pretrained LLMs for theorem formalization and proof.",
+        "The reinforcement learning framework proposed in this paper can be applied to further validate the HAIM framework across diverse healthcare environments and datasets, establishing its generalizability in real-world clinical settings.",
+        "The innovative approach of using reinforcement learning to optimize LLMs can contribute to the exploration of the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare."
+      ],
+      "strengths": [
+        "Innovative use of reinforcement learning to optimize pretrained LLMs for theorem formalization and proof.",
+        "Relevant to the intersection of artificial intelligence and healthcare analytics, showcasing the potential of LLMs in transforming patient engagement through technical advancements.",
+        "Contributes to the theoretical understanding of LLMs by demonstrating their effectiveness in formal theorem proving tasks."
+      ],
+      "limitations": [
+        "The focus on theorem formalization and proof may limit the practical application of the findings in broader healthcare settings.",
+        "The study does not directly address the scalability of the framework in real-world clinical settings or its integration with existing healthcare IT systems."
+      ]
+    },
+    "2502.06470v1": {
+      "title": "A Survey of Theory of Mind in Large Language Models: Evaluations, Representations, and Safety Risks",
+      "arxiv_id": "2502.06470v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 5,
+        "Innovation": 7
+      },
+      "overall_score": 0.66,
+      "relevance_points": [
+        "Addresses the evaluation of behavioural and representational Theory of Mind in Large Language Models, which is relevant to understanding how LLMs can interact with users in healthcare settings.",
+        "Identifies safety risks associated with advanced LLM Theory of Mind capabilities, which is crucial for addressing ethical considerations in healthcare AI applications.",
+        "Suggests research directions for effective evaluation and mitigation of safety risks, providing insights for developing guidelines tailored for healthcare applications of LLMs."
+      ],
+      "application_suggestions": [
+        "The paper can help in exploring the integration of Theory of Mind capabilities in LLMs with other technologies like IoMT and blockchain for enhanced patient care.",
+        "It can contribute to the development of methodologies to handle ethical concerns associated with the use of LLMs in healthcare AI systems.",
+        "The findings can inform the assessment of the clinical utility and user acceptance of AI-driven decision support tools developed using LLMs with enhanced Theory of Mind capabilities."
+      ],
+      "strengths": [
+        "Provides a comprehensive survey of Theory of Mind in Large Language Models, offering insights into the evaluation and representation of this crucial aspect of social intelligence.",
+        "Identifies safety risks associated with advanced LLM Theory of Mind capabilities, highlighting the importance of considering ethical and safety implications in AI applications.",
+        "Suggests research directions for effective evaluation and mitigation of safety risks, contributing to the development of guidelines for the responsible use of LLMs in various domains."
+      ],
+      "limitations": [
+        "The paper focuses on Theory of Mind in LLMs without specific emphasis on healthcare applications, limiting its direct relevance to the healthcare AI domain.",
+        "The theoretical contribution may be limited in terms of practical applications in healthcare settings, as the focus is more on theoretical understanding and safety risks."
+      ]
+    },
+    "2502.16721v1": {
+      "title": "Speed and Conversational Large Language Models: Not All Is About Tokens per Second",
+      "arxiv_id": "2502.16721v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 5,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 4
+      },
+      "overall_score": 0.6,
+      "relevance_points": [
+        "Addresses the research gap of understanding the speed of LLMs in different tasks, which can contribute to the development and deployment guidelines tailored for healthcare applications of LLMs.",
+        "Relevant to the integration of LLMs with other technologies like IoMT and blockchain for enhanced patient care by providing insights into the speed dependency on tasks.",
+        "Contributes to the exploration of the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare by studying the speed of LLMs on GPUs."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing methodologies to handle the ethical and privacy concerns associated with the use of multimodal patient data in AI systems by considering the speed implications of LLMs.",
+        "The findings of this paper can be used to assess the clinical utility and user acceptance of AI-driven decision support tools developed using the HAIM framework by incorporating speed considerations into the evaluation.",
+        "It can assist in the investigation into the scalability of the HAIM framework in real-world clinical settings by understanding the speed variations of LLMs across different tasks."
+      ],
+      "strengths": [
+        "Provides a comparative analysis of the speed of popular open LLMs, offering valuable insights into the performance variations based on tasks.",
+        "Methodologically relevant by studying the speed of LLMs on GPUs, which is crucial for practical applications in healthcare settings where computational efficiency is essential."
+      ],
+      "limitations": [
+        "Lacks extensive clinical testing and benchmarking to validate the speed findings in healthcare settings, limiting the direct applicability of the results to healthcare applications.",
+        "Does not directly address the ethical considerations, personalized medicine, or long-term effectiveness of LLMs in healthcare, which are important aspects for comprehensive evaluation."
+      ]
+    },
+    "2502.11528v1": {
+      "title": "A Survey of Personalized Large Language Models: Progress and Future Directions",
+      "arxiv_id": "2502.11528v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 8
+      },
+      "overall_score": 0.76,
+      "relevance_points": [
+        "Addresses the gap in personalized medicine and drug discovery applications of LLMs by focusing on personalized large language models",
+        "Relevant to the integration of LLMs with healthcare data and the potential applications in medical assistants",
+        "Contributes to the understanding of patient engagement and conversational AI in healthcare through personalized language models"
+      ],
+      "application_suggestions": [
+        "The paper can help in developing guidelines specifically tailored for healthcare applications of LLMs by providing insights into personalized adaptation techniques",
+        "It can contribute to the exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care by highlighting the importance of personalized context in language models",
+        "The findings can assist in assessing the clinical utility and user acceptance of AI-driven decision support tools developed using personalized large language models"
+      ],
+      "strengths": [
+        "Provides a comprehensive review of recent advancements in personalized large language models",
+        "Offers insights into personalized adaptation techniques at different technical levels, including input, model, and objective levels",
+        "Outlines promising directions for future research in personalized language models"
+      ],
+      "limitations": [
+        "The paper focuses more on the technical aspects of personalized language models and may not delve deeply into the ethical considerations specific to healthcare applications",
+        "Limited discussion on the scalability and long-term effectiveness of personalized large language models in real-world clinical settings"
+      ]
+    },
+    "2503.01887v1": {
+      "title": "When Continue Learning Meets Multimodal Large Language Model: A Survey",
+      "arxiv_id": "2503.01887v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 8
+      },
+      "overall_score": 0.72,
+      "relevance_points": [
+        "Addresses the gap in understanding how Multimodal Large Language Models (MLLMs) can adapt to dynamic data distributions and tasks efficiently.",
+        "Connects foundational concepts, theoretical insights, method innovations, and practical applications of continual learning for MLLMs.",
+        "Provides a comprehensive understanding of the research progress and challenges in the field of MLLM continual learning."
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines specifically tailored for healthcare applications of MLLMs by understanding how these models adapt to different tasks efficiently.",
+        "Can contribute to the exploration of MLLM integration with other technologies like IoMT and blockchain for enhanced patient care by providing insights into continual learning challenges and solutions.",
+        "Can aid in the development of methodologies to handle ethical and privacy concerns associated with the use of multimodal patient data in AI systems by offering theoretical and practical insights into MLLM continual learning."
+      ],
+      "strengths": [
+        "Provides an overview and analysis of 440 research papers in the area of MLLM continual learning, showcasing a comprehensive review of the field.",
+        "Categorizes and overviews the latest studies on continual learning, including non-LLM unimodal continual learning, non-LLM multimodal continual learning, and continual learning in large language models, offering a structured approach to understanding the research landscape.",
+        "Discusses challenges and future directions of continual learning in MLLMs, aiming to inspire future research and development in the field, highlighting the importance of ongoing advancements in this area."
+      ],
+      "limitations": [
+        "The paper may lack specific focus on healthcare applications of MLLMs, which could limit its direct relevance to the healthcare context.",
+        "The review may not delve deeply into the practical implications of MLLM continual learning in real-world healthcare settings, potentially limiting its immediate applicability to healthcare research and practice."
+      ]
+    },
+    "2502.11425v1": {
+      "title": "Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models",
+      "arxiv_id": "2502.11425v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 8
+      },
+      "overall_score": 0.72,
+      "relevance_points": [
+        "Addresses the research gap of improving LLM performance by enhancing temporal consistency, which is crucial for healthcare applications.",
+        "Relevant to the integration of LLMs with healthcare data by focusing on improving event ordering and temporal commonsense understanding.",
+        "Contributes to the theoretical understanding of how counterfactual prompting can enhance the temporal reasoning ability of LLMs."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines tailored for healthcare applications of LLMs by providing a method to enhance temporal consistency in understanding events.",
+        "The approach of using counterfactual prompting can be applied to personalized healthcare through LLMs to improve temporal reasoning in patient-specific contexts.",
+        "The findings of this paper can be used to enhance the performance of AI-driven decision support tools in healthcare by improving the temporal understanding of patient data."
+      ],
+      "strengths": [
+        "Innovative approach of using counterfactual prompting to address temporal inconsistencies in LLMs.",
+        "Methodological relevance in enhancing event ordering and temporal commonsense understanding across multiple datasets.",
+        "Practical application in improving the performance of LLMs by enforcing collective constraints for temporal consistency."
+      ],
+      "limitations": [
+        "Limited focus on healthcare applications specifically, which could restrict the generalizability of the findings to other domains.",
+        "The evaluation may not fully capture the real-world complexity of healthcare data and scenarios, potentially limiting the practical applicability of the proposed method."
+      ]
+    },
+    "2503.04490v1": {
+      "title": "Large Language Models in Bioinformatics: A Survey",
+      "arxiv_id": "2503.04490v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 7
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the gap in limited research on personalized medicine and drug discovery applications of LLMs.",
+        "Contributes to the exploration of future directions such as multimodal learning and clinical applications.",
+        "Highlights the transformative potential of LLMs in driving innovations in bioinformatics and precision medicine."
+      ],
+      "application_suggestions": [
+        "The paper can inspire further research on the integration of LLMs with other technologies like IoMT and blockchain for enhanced bioinformatics analysis.",
+        "Researchers can use the methodological insights from this paper to develop and deploy guidelines specifically tailored for bioinformatics applications of LLMs."
+      ],
+      "strengths": [
+        "Provides a systematic review of recent advancements in LLMs in bioinformatics.",
+        "Discusses key challenges in the field, including data scarcity and computational complexity.",
+        "Explores future directions such as multimodal learning and hybrid AI models in bioinformatics."
+      ],
+      "limitations": [
+        "The paper does not extensively address the scalability of LLMs in real-world clinical settings.",
+        "Limited discussion on the ethical and privacy concerns associated with the use of LLMs in bioinformatics."
+      ]
+    },
+    "2502.13475v2": {
+      "title": "LLM should think and action as a human",
+      "arxiv_id": "2502.13475v2",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 8
+      },
+      "overall_score": 0.72,
+      "relevance_points": [
+        "Addresses the research gap of enhancing LLM performance in multi-turn conversations, aligning with the need for LLM development tailored for healthcare applications.",
+        "Relevant to the exploration of LLM integration with other technologies like IoMT and blockchain for improved patient care.",
+        "Contributes to the understanding of patient engagement and conversational AI in healthcare, key research areas in the field."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines for the deployment of LLMs in healthcare settings, specifically focusing on improving patient engagement through multi-turn conversations.",
+        "The proposed thinking method can be applied to enhance the reasoning and planning abilities of LLMs in personalized healthcare applications and clinical decision support systems.",
+        "The use of reinforcement learning to fine-tune LLMs based on a consistency reward model can be extended to address the ethical considerations of LLM integration in healthcare."
+      ],
+      "strengths": [
+        "Innovative approach to enhancing LLM thinking ability through a built-in chain of thought, addressing the limitations of current multi-turn conversation systems.",
+        "Empirical results demonstrating the enhancement of reasoning and planning abilities of LLMs, providing practical implications for improving conversational AI in healthcare.",
+        "Relevance to key research areas such as patient engagement, conversational AI, and ethical considerations of LLMs in healthcare, contributing to the advancement of AI-driven healthcare interventions."
+      ],
+      "limitations": [
+        "Limited focus on the scalability and generalizability of the proposed thinking method across diverse healthcare environments and datasets.",
+        "Reliance on supervised and reinforcement learning may overlook the impact of data quality and completeness on the performance of LLMs in healthcare applications."
+      ]
+    },
+    "2502.20609v1": {
+      "title": "Leveraging Large Language Models for Building Interpretable Rule-Based Data-to-Text Systems",
+      "arxiv_id": "2502.20609v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 6,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 5,
+        "Practical Application": 7,
+        "Innovation": 7
+      },
+      "overall_score": 0.66,
+      "relevance_points": [
+        "Addresses the gap of exploring LLM integration with other technologies by leveraging LLMs for building rule-based data-to-text systems",
+        "Relevant to the research gap of developing methodologies to handle ethical concerns by focusing on interpretable rule-based systems",
+        "Contributes to the gap of assessing the clinical utility of AI-driven decision support tools by demonstrating improved text quality using LLMs"
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines tailored for healthcare applications of LLMs by showcasing the benefits of using LLMs for data-to-text systems",
+        "It can contribute to the research on personalized medicine and drug discovery applications of LLMs by demonstrating the effectiveness of LLMs in generating high-quality text outputs",
+        "The paper can aid in exploring the impact of data quality on multimodal AI/ML systems by providing insights into the performance of LLMs in generating text"
+      ],
+      "strengths": [
+        "Demonstrates the potential of using LLMs for building interpretable rule-based systems, which can be valuable in healthcare settings",
+        "Provides empirical evidence of improved text quality and reduced hallucinations compared to fine-tuned language models, showcasing the effectiveness of the approach",
+        "Highlights the efficiency of the approach in generating text in a fraction of the processing time required by neural approaches, indicating practical applicability"
+      ],
+      "limitations": [
+        "The study focuses on text generation and does not directly address the broader healthcare applications of LLMs, limiting its scope in addressing all healthcare research gaps",
+        "The evaluation is conducted on a specific dataset (WebNLG), which may not fully represent the diversity of healthcare data and scenarios, affecting generalizability"
+      ]
+    },
+    "2502.15796v1": {
+      "title": "Pruning as a Defense: Reducing Memorization in Large Language Models",
+      "arxiv_id": "2502.15796v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 8
+      },
+      "overall_score": 0.72,
+      "relevance_points": [
+        "Addresses the research gap of lack of extensive clinical testing and benchmarking to validate LLM performance by investigating the impact of pruning techniques on reducing memorization in LLMs.",
+        "Relevant to the research gap of insufficient exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care as it focuses on improving LLM behavior through pruning.",
+        "Contributes to the research gap of limited research on personalized medicine and drug discovery applications of LLMs by proposing a foundational approach for mitigating membership inference attacks in LLMs."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines specifically tailored for healthcare applications of LLMs by providing insights into reducing memorization in LLMs, which can improve their performance in healthcare settings.",
+        "The findings of this paper can contribute to the exploration of the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare by offering a method to mitigate memorization in LLMs.",
+        "It can also aid in the development of methodologies to handle ethical and privacy concerns associated with the use of multimodal patient data in AI systems by addressing the issue of membership inference attacks in LLMs."
+      ],
+      "strengths": [
+        "The paper addresses a critical issue of memorization in LLMs, which is important for ensuring the reliability and factuality of LLM outputs in healthcare applications.",
+        "The use of pruning techniques as a defense mechanism against memorization in LLMs is innovative and offers a practical solution to improve the performance of LLMs in various settings.",
+        "The findings of the paper have practical implications for enhancing the security and privacy of LLM-based systems, which is crucial in healthcare and other sensitive domains."
+      ],
+      "limitations": [
+        "The theoretical contribution of the paper could be further expanded to explore the broader implications of pruning techniques on LLM behavior beyond mitigating membership inference attacks.",
+        "The study's focus on reducing memorization in LLMs may limit the generalizability of its findings to other aspects of LLM performance in healthcare settings."
+      ]
+    },
+    "2502.11219v1": {
+      "title": "AudioSpa: Spatializing Sound Events with Text",
+      "arxiv_id": "2502.11219v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 8
+      },
+      "overall_score": 0.76,
+      "relevance_points": [
+        "Addresses the research gap of limited exploration of LLM integration with other technologies for enhanced patient care",
+        "Contributes to the development of methodologies for handling ethical concerns associated with AI systems in healthcare",
+        "Relevant to the integration of LLMs with healthcare data for personalized healthcare applications"
+      ],
+      "application_suggestions": [
+        "The methodology of using large language models for processing acoustic and textual information can be applied to enhance multimodal AI systems in healthcare",
+        "The data augmentation strategy proposed in the paper can be adapted for creating diverse datasets in healthcare analytics research"
+      ],
+      "strengths": [
+        "Innovative approach of text-guided binaural audio generation",
+        "Utilization of fusion multi-head attention for integrating text tokens to enhance multimodal learning",
+        "Design of a binaural source localization model to assess the quality of generated audio"
+      ],
+      "limitations": [
+        "Focus on binaural audio generation may limit the generalizability of the findings to broader healthcare applications",
+        "Reliance on a single-source sound event dataset may restrict the scalability of the proposed model"
+      ]
+    },
+    "2503.01728v1": {
+      "title": "DeepSuM: Deep Sufficient Modality Learning Framework",
+      "arxiv_id": "2503.01728v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 8
+      },
+      "overall_score": 0.72,
+      "relevance_points": [
+        "Addresses the research gap of optimizing modality integration and selection in multimodal learning",
+        "Relevant to the development of tailored encoders for different modalities in healthcare applications",
+        "Contributes to the exploration of multimodal learning in large language models"
+      ],
+      "application_suggestions": [
+        "Can help in developing guidelines for healthcare applications of LLMs by providing insights into modality selection",
+        "May contribute to the integration of LLMs with other technologies like IoMT and blockchain for enhanced patient care through optimized modality representation"
+      ],
+      "strengths": [
+        "Proposes a novel framework for modality selection that independently learns the representation of each modality",
+        "Enhances the efficiency and effectiveness of multimodal learning by optimizing modality integration and selection",
+        "Facilitates joint analysis of modalities with distinct characteristics, which is crucial in healthcare applications"
+      ],
+      "limitations": [
+        "The paper does not explicitly address the ethical considerations associated with the use of multimodal patient data in AI systems",
+        "Limited discussion on the scalability and generalizability of the proposed framework in real-world clinical settings"
+      ]
+    },
+    "2503.04780v1": {
+      "title": "MV-CLAM: Multi-View Molecular Interpretation with Cross-Modal Projection via Language Model",
+      "arxiv_id": "2503.04780v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 9
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the research gap of limited research on personalized medicine and drug discovery applications of LLMs by enhancing molecular reasoning and improving retrieval accuracy.",
+        "Contributes to the research gap of insufficient exploration of LLM integration with other technologies like IoMT and blockchain by aligning multi-view molecular representations into a unified textual space.",
+        "Relevant to the research gap of development of methodologies to handle ethical and privacy concerns associated with the use of multimodal patient data in AI systems through its novel framework."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines specifically tailored for healthcare applications of LLMs by showcasing the practical application of aligning multi-view molecular representations.",
+        "The methodology presented in this paper can be applied to explore the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare.",
+        "The innovative approach of MV-CLAM can be utilized to assess the clinical utility and user acceptance of AI-driven decision support tools developed using the HAIM framework."
+      ],
+      "strengths": [
+        "Innovative approach of aligning multi-view molecular representations into a unified textual space using a multi-query transformer.",
+        "Enhances molecular reasoning and improves retrieval and captioning accuracy, showcasing practical application potential.",
+        "Addresses the challenges of separate aligned spaces and inconsistent mappings between molecule and text embeddings, contributing to methodological relevance."
+      ],
+      "limitations": [
+        "The paper focuses on molecular interpretation, which may limit its direct applicability to broader healthcare settings.",
+        "Reliance on a single dataset for evaluation may restrict the generalizability of the findings."
+      ]
+    },
+    "2502.08826v2": {
+      "title": "Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation",
+      "arxiv_id": "2502.08826v2",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 6,
+        "Innovation": 8
+      },
+      "overall_score": 0.76,
+      "relevance_points": [
+        "Addresses the gap in insufficient exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care by discussing the integration of multiple modalities in AI systems.",
+        "Contributes to the research gap of limited research on personalized medicine and drug discovery applications of LLMs by exploring the use of multimodal data for retrieval-augmented generation.",
+        "Relevant to the research gap of the need for development and deployment guidelines specifically tailored for healthcare applications of LLMs through its analysis of methodologies and innovations in multimodal RAG systems."
+      ],
+      "application_suggestions": [
+        "This paper can help in the development of guidelines for integrating LLMs with other technologies like IoMT and blockchain by providing insights into the challenges and advancements in multimodal RAG systems.",
+        "The methodologies and training strategies discussed in this paper can be applied to enhance the performance of LLMs in personalized medicine and drug discovery applications.",
+        "The exploration of loss functions and robustness enhancements in multimodal RAG systems can inform the development of AI-driven decision support tools in healthcare."
+      ],
+      "strengths": [
+        "Comprehensive analysis of Multimodal RAG systems covering datasets, metrics, benchmarks, evaluation, methodologies, and innovations.",
+        "Precise review of training strategies, robustness enhancements, and loss functions in Multimodal RAG.",
+        "Discussion of open challenges and future research directions to support advancements in the field of multimodal retrieval-augmented generation."
+      ],
+      "limitations": [
+        "The paper focuses on the technical aspects of Multimodal RAG systems and may not delve deeply into the ethical and privacy concerns associated with the use of multimodal patient data in AI systems.",
+        "The practical application score could be improved by providing more concrete examples of how the findings can be implemented in real-world healthcare settings."
+      ]
+    },
+    "2503.02781v1": {
+      "title": "Multimodal AI predicts clinical outcomes of drug combinations from preclinical data",
+      "arxiv_id": "2503.02781v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 9,
+        "Innovation": 8
+      },
+      "overall_score": 0.82,
+      "relevance_points": [
+        "Addresses the research gap of limited research on personalized medicine and drug discovery applications of LLMs.",
+        "Relevant to the gap of insufficient exploration of LLM integration with other technologies like IoMT and blockchain for enhanced patient care.",
+        "Contributes to the gap of development of methodologies to handle ethical and privacy concerns associated with the use of multimodal patient data in AI systems."
+      ],
+      "application_suggestions": [
+        "This paper can help advance research in personalized healthcare through the use of multimodal AI models for predicting clinical outcomes of drug combinations.",
+        "The findings of this paper can be applied to enhance the development and deployment guidelines specifically tailored for healthcare applications of LLMs.",
+        "The methodology presented in this paper can be utilized to further explore the integration of LLMs with other technologies in healthcare settings for improved patient care."
+      ],
+      "strengths": [
+        "Innovative use of a multimodal AI model (MADRIGAL) that unifies various preclinical drug data modalities for predicting drug combination effects.",
+        "Outperforms single-modality methods and state-of-the-art models in predicting adverse drug interactions, showcasing its effectiveness.",
+        "Supports personalized cancer therapy by integrating genomic profiles from cancer patients, demonstrating its potential for personalized medicine applications."
+      ],
+      "limitations": [
+        "Reliance on a single dataset (MIMIC-IV) for evaluation may limit the generalizability of the findings across different healthcare settings.",
+        "The complexity of the presented multimodal AI model may pose implementation challenges in real-world clinical settings."
+      ]
+    },
+    "2502.11256v1": {
+      "title": "Unveiling Environmental Impacts of Large Language Model Serving: A Functional Unit View",
+      "arxiv_id": "2502.11256v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 7
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the environmental impact of LLMs, which is a gap in the research on LLM applications in healthcare",
+        "Provides insights into optimizing model selection and deployment strategies, which can be relevant for healthcare applications of LLMs",
+        "Highlights the importance of sustainability in AI infrastructure, which is a growing concern in the healthcare industry"
+      ],
+      "application_suggestions": [
+        "The framework developed in this paper can be adapted to evaluate the environmental impact of LLMs used in healthcare settings, addressing the gap in benchmarking and validation",
+        "The findings on optimizing model selection and deployment strategies can be applied to enhance the efficiency and sustainability of LLMs integrated with IoMT and blockchain technologies in healthcare",
+        "The emphasis on reducing carbon emissions can guide the development of guidelines tailored for sustainable deployment of LLMs in healthcare applications"
+      ],
+      "strengths": [
+        "Introduces a novel concept of functional unit (FU) for evaluating LLM serving's environmental impact",
+        "Provides a framework (FUEL) for assessing the sustainability of LLM deployment strategies",
+        "Offers practical insights on reducing carbon emissions through optimization of model selection and hardware choices"
+      ],
+      "limitations": [
+        "The focus on environmental impact may limit the generalizability of the findings to other aspects of LLM performance in healthcare settings",
+        "The study does not directly address the integration of LLMs with other technologies like IoMT and blockchain for enhanced patient care"
+      ]
+    },
+    "2503.04870v2": {
+      "title": "Leveraging Large Language Models to Address Data Scarcity in Machine Learning: Applications in Graphene Synthesis",
+      "arxiv_id": "2503.04870v2",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 9,
+        "Theoretical Contribution": 7,
+        "Practical Application": 8,
+        "Innovation": 7
+      },
+      "overall_score": 0.78,
+      "relevance_points": [
+        "Addresses the research gap of limited experimental data in materials science",
+        "Utilizes large language models to enhance machine learning performance on a limited dataset",
+        "Offers a broadly applicable framework for improving machine learning performance on scarce, inhomogeneous datasets"
+      ],
+      "application_suggestions": [
+        "The strategies proposed in this paper can be adapted for other fields facing data scarcity issues, such as healthcare applications of LLMs",
+        "The methods used for data imputation and feature space homogenization can be applied to enhance the performance of AI-driven decision support tools in healthcare"
+      ],
+      "strengths": [
+        "Demonstrates the effectiveness of LLM-driven data enhancements in improving machine learning performance",
+        "Provides empirical evidence of the benefits of combining numerical classifiers with LLM strategies in data-scarce scenarios"
+      ],
+      "limitations": [
+        "The focus on graphene synthesis may limit the generalizability of the findings to other domains",
+        "The comparison between SVM and GPT-4 models could be further elaborated to provide deeper insights into the performance differences"
+      ]
+    },
+    "2502.12383v1": {
+      "title": "Locally-Deployed Chain-of-Thought (CoT) Reasoning Model in Chemical Engineering: Starting from 30 Experimental Data",
+      "arxiv_id": "2502.12383v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 7
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the gap in limited research on personalized medicine and drug discovery applications of LLMs in the context of chemical engineering",
+        "Contributes to the exploration of LLM integration with other technologies for enhanced property prediction in chemical engineering",
+        "Provides a new solution for rapid property prediction and process optimization in chemical engineering, aligning with the need for tailored guidelines for LLM applications in healthcare"
+      ],
+      "application_suggestions": [
+        "The methodology of integrating traditional surrogate models with LLMs can be applied in healthcare settings to enhance predictive modeling and decision support systems",
+        "The hierarchical architecture proposed in this paper can be adapted for multimodal machine learning applications in healthcare analytics to improve patient care and treatment outcomes"
+      ],
+      "strengths": [
+        "Efficient comparison of two CoT-building methods for property prediction in chemical engineering",
+        "Demonstrates the potential of integrating traditional ML models with LLMs for improved prediction accuracy"
+      ],
+      "limitations": [
+        "Limited discussion on the ethical considerations and privacy concerns associated with the use of LLMs in chemical engineering applications",
+        "Reliance on a small dataset of 30 experimental data points may limit the generalizability of the findings"
+      ]
+    },
+    "2502.13138v1": {
+      "title": "AIDE: AI-Driven Exploration in the Space of Code",
+      "arxiv_id": "2502.13138v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 4,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 9
+      },
+      "overall_score": 0.68,
+      "relevance_points": [
+        "Addresses the gap in the need for development and deployment guidelines tailored for AI-driven solutions in healthcare applications",
+        "Contributes to the research gap on the integration of AI technologies like LLMs with other systems for enhanced performance",
+        "Relevant to the research gap on the scalability and integration of AI systems in real-world clinical settings"
+      ],
+      "application_suggestions": [
+        "The methodology used in AIDE can be adapted for developing and optimizing AI-driven decision support tools in healthcare",
+        "The approach of AIDE can be applied to explore the integration of LLMs with healthcare data for personalized medicine applications",
+        "The findings of AIDE can inform the development of guidelines for the ethical use of AI-driven solutions in healthcare"
+      ],
+      "strengths": [
+        "Innovative approach of using LLMs for machine learning engineering tasks",
+        "Effective utilization of computational resources for enhanced performance",
+        "Achieving state-of-the-art results on multiple machine learning engineering benchmarks"
+      ],
+      "limitations": [
+        "Limited discussion on the ethical considerations and privacy concerns associated with the use of AI-driven solutions",
+        "Focus on machine learning engineering may not directly translate to healthcare applications"
+      ]
+    },
+    "2502.12845v1": {
+      "title": "MOLLM: Multi-Objective Large Language Model for Molecular Design -- Optimizing with Experts",
+      "arxiv_id": "2502.12845v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 9,
+        "Innovation": 8
+      },
+      "overall_score": 0.76,
+      "relevance_points": [
+        "Addresses the research gap of limited research on personalized medicine and drug discovery applications of LLMs.",
+        "Relevant to the integration of LLMs with healthcare data for personalized healthcare.",
+        "Contributes to the field of artificial intelligence in healthcare by showcasing the potential of LLMs in molecular design."
+      ],
+      "application_suggestions": [
+        "This paper can help in developing methodologies for handling ethical and privacy concerns associated with using LLMs in healthcare, by providing insights into optimizing molecular properties.",
+        "The framework introduced in this paper can be adapted for the development and deployment of LLMs specifically tailored for healthcare applications, addressing the research gap in this area.",
+        "The methods used in MOLLM can be applied to explore the impact of data quality and completeness on the performance of multimodal AI/ML systems in healthcare."
+      ],
+      "strengths": [
+        "Innovative approach that combines domain-specific knowledge with Large Language Models for molecular design optimization.",
+        "Superior efficiency, innovation, and performance compared to state-of-the-art methods.",
+        "Extensive ablation studies conducted to evaluate the superiority of the components of MOLLM."
+      ],
+      "limitations": [
+        "The paper focuses on molecular design optimization, which may limit its direct relevance to healthcare applications.",
+        "Limited discussion on the ethical considerations and privacy concerns associated with the use of LLMs in molecular design."
+      ]
+    },
+    "2503.05613v1": {
+      "title": "A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models",
+      "arxiv_id": "2503.05613v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 7,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 9,
+        "Practical Application": 7,
+        "Innovation": 8
+      },
+      "overall_score": 0.78,
+      "relevance_points": [
+        "Addresses the need for understanding the internal mechanisms of Large Language Models (LLMs)",
+        "Contributes to the exploration of interpretability approaches for LLMs, which is a research gap",
+        "Provides insights into how Sparse Autoencoders can be applied to analyze LLMs"
+      ],
+      "application_suggestions": [
+        "The paper can help in developing guidelines for interpreting and understanding LLMs in healthcare settings",
+        "It can contribute to the exploration of integrating Sparse Autoencoders with other technologies like IoMT and blockchain for enhanced patient care",
+        "The findings can be used to enhance the performance and transparency of AI-driven decision support tools in healthcare"
+      ],
+      "strengths": [
+        "Comprehensive examination of Sparse Autoencoders as a method for interpreting LLMs",
+        "Systematic overview of SAE principles, architectures, and applications tailored for LLM analysis",
+        "Provides insights into steering model behaviors in desired directions and developing transparent training methodologies"
+      ],
+      "limitations": [
+        "Limited focus on the direct application of Sparse Autoencoders in healthcare settings",
+        "Challenges around SAE implementation and scaling are acknowledged but not fully addressed"
+      ]
+    },
+    "2502.14893v1": {
+      "title": "NOTA: Multimodal Music Notation Understanding for Visual Large Language Model",
+      "arxiv_id": "2502.14893v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 8,
+        "Methodological Relevance": 7,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 9
+      },
+      "overall_score": 0.74,
+      "relevance_points": [
+        "Addresses the research gap of insufficient exploration of LLM integration with other technologies by focusing on multimodal music notation understanding",
+        "Contributes to the research gap of limited research on personalized medicine and drug discovery applications of LLMs by showcasing the effectiveness of multimodal music understanding",
+        "Relevant to the research gap of development of methodologies to handle ethical concerns associated with the use of multimodal patient data in AI systems"
+      ],
+      "application_suggestions": [
+        "This paper can help in developing guidelines specifically tailored for healthcare applications of LLMs by providing insights into multimodal data integration",
+        "The methodology used in this paper can be applied to healthcare settings to enhance patient care through personalized healthcare applications of LLMs"
+      ],
+      "strengths": [
+        "Innovative approach of creating a comprehensive multimodal music notation dataset and training a visual large language model for music understanding",
+        "Open-sourcing the dataset for further research and development in the field of multimodal music notation understanding"
+      ],
+      "limitations": [
+        "The focus on music notation understanding may limit the direct applicability of the findings to healthcare settings",
+        "The evaluation of the model's performance is based on experimental results without extensive clinical testing"
+      ]
+    },
+    "2503.05324v1": {
+      "title": "Routing for Large ML Models",
+      "arxiv_id": "2503.05324v1",
+      "criteria_scores": {
+        "Research Gap Alignment": 5,
+        "Methodological Relevance": 8,
+        "Theoretical Contribution": 6,
+        "Practical Application": 7,
+        "Innovation": 7
+      },
+      "overall_score": 0.66,
+      "relevance_points": [
+        "Addresses the need for optimization in routing large volumes of data, which is crucial for efficient deployment of LLMs in healthcare settings",
+        "Contributes to the exploration of technical challenges in integrating LLMs with existing healthcare IT systems",
+        "Provides insights into improving the scalability of AI/ML systems, which is essential for long-term effectiveness in healthcare interventions"
+      ],
+      "application_suggestions": [
+        "The algorithmic framework presented in this paper can be adapted for optimizing routing in healthcare applications of LLMs, addressing the gap in development and deployment guidelines tailored for healthcare settings",
+        "The findings can inform the development of methodologies to handle data quality and completeness issues in multimodal AI/ML systems, enhancing the performance of LLMs in personalized medicine and drug discovery applications",
+        "The approach can be utilized to assess the impact of data routing efficiency on the clinical utility and user acceptance of AI-driven decision support tools developed using the HAIM framework"
+      ],
+      "strengths": [
+        "Provides a systematic framework for quantifying and optimizing network-wide efficiency in training large ML models",
+        "Addresses the technical challenges associated with communication patterns induced by training LLMs, contributing to practical solutions for optimizing data flow in healthcare applications"
+      ],
+      "limitations": [
+        "The paper focuses primarily on the optimization of routing for large ML models in general, without specific emphasis on healthcare applications",
+        "May lack direct validation or benchmarking in healthcare settings, limiting the immediate applicability of the findings to the healthcare domain"
+      ]
+    }
+  },
+  "avg_score": 0.729090909090909,
+  "search_iteration": 0,
+  "date_filter": "last_month"
+}
