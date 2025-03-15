@@ -1,13 +1,15 @@
 # **Virtual Scholar Agent: Automate Research Paper Retrieval & Summarization**  
 
-The **Virtual Scholar Agent** is an **AI-powered research assistant** that helps researchers, data scientists, and applied scientists stay up-to-date with the latest research papers. It automates the process of **retrieving, evaluating, and summarizing research papers** based on your specific research focus and delivers structured insights via email.
+The **Virtual Scholar Agent** is an **AI-powered research assistant** that helps researchers, data scientists, and applied scientists stay up-to-date with the latest research papers. It automates the process of **retrieving, evaluating, and summarizing research papers** based on your specific research focus and delivers structured insights via email. 
+This project is modified from SesamoHackathon(https://github.com/cc4019/SesamoHackathon), an original idea developed during a hackathon. The current version improves upon the initial concept by refining the workflow, enhancing automation, and optimizing research retrieval and summarization.
 
 ## **✨ Features**  
 - **Research Analysis**: Uses LLMs to analyze your existing research documents and extract structured insights.  
 - **Automated Paper Retrieval**: Searches for relevant papers using the **ArXiv Search Tool** with dynamically generated keywords.  
 - **Paper Evaluation**: Uses LLMs to assess the quality and relevance of retrieved papers.  
 - **Scheduled Email Summaries**: Sends research paper recommendations via email on a user-defined schedule.  
-- **Flexible Automation**: Supports both **local execution on Mac** (via Automator & Calendar Alarm) and **cloud-based execution** (via AWS Lambda & Step Functions).  
+- **Flexible Automation**: Supports both **local execution on Mac** (via Automator & Calendar Alarm) and **cloud-based execution** (via AWS Lambda & Step Functions).
+
 
 ## **📌 Overall Workflow**  
 ![Virtual Scholar Agent Workflow](https://github.com/user-attachments/assets/4b0ee1bd-b2a9-4ba9-8de7-217bbd2ac2e0)  
